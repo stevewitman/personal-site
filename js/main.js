@@ -97,18 +97,70 @@ $(document).ready(function() {
         backgrounds: [
 
             {
-                src: 'img/slider/01.jpg',
+                src: 'img/slider/IMAG0034.jpg',
                 fade: 1000
-            }, {
-                src: 'img/slider/02.jpg',
+            },
+            {
+                src: 'img/slider/IMG_2810d.jpg',
                 fade: 1000
-            }, {
-                src: 'img/slider/03.jpg',
+            },
+            {
+                src: 'img/slider/IMG_4413.jpg',
                 fade: 1000
-            }, {
-                src: 'img/slider/04.jpg',
+            },
+            {
+                src: 'img/slider/IMG_4919.jpg',
                 fade: 1000
-            }
+            },
+            {
+                src: 'img/slider/IMG_4967.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/IMG_5034.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/IMG_5139.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/IMG_5340.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/IMG_8481.jpg',
+                fade: 1000
+            },
+
+
+            {
+                src: 'img/slider/IMG_1766.jpg',
+                fade: 1000
+            },
+
+            {
+                src: 'img/slider/IMG_4411.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/IMG_6891.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/15a.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/WitmanHorseLine - Copy.jpg',
+                fade: 1000
+            },
+            {
+                src: 'img/slider/WPbase2.jpg',
+                fade: 1000
+            },
+
+
         ]
     })('overlay', {
         src: 'img/overlays/16.png'
