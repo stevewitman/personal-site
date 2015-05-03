@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     background: none;
 }
 /* ==========================================================================
-  Layout 
+  Layout
    ========================================================================== */
 
 #page-welcome {
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 #page-profile .profile {
     border: 5px solid #333;
     width: 225px;
-    height: 225px;
+    height: 220px;
     margin: 0 20px 20px 0;
 }
 #page-skills {
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
 }
 /* ==========================================================================
-   Portfolio   
+   Portfolio
    ========================================================================== */
 
 #grid-controls-wrapper {
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .isotope, .isotope .isotope-item {
     /* change duration value to whatever you like */
-    
+
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -ms-transition-duration: 0.8s;
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
     image-rendering: optimizeQuality;
     max-width: none !important;
     /* counteracts global img modification by twitter bootstrap library */
-    
+
     z-index: -2;
 }
 .vegas-overlay, .vegas-background {
@@ -384,7 +384,7 @@ label.valid {
   padding: 4px 18px;
 }
 /* ==========================================================================
-   Charts   
+   Charts
    ========================================================================== */
 
 .chart {
@@ -461,20 +461,11 @@ label.valid {
 .btn-twitter:hover {
     color: #2BA9E0;
 }
-.btn-facebook:hover {
-    color: #204385;
-}
-.btn-dribbble:hover {
-    color: #D92C85;
-}
-.btn-instagram:hover {
-    color: #BAB1A8;
+.btn-github:hover {
+    color: #111111;
 }
 .btn-linkedin:hover {
     color: #015786;
-}
-.btn-pinterest:hover {
-    color: #CA2128;
 }
 .btn-google:hover {
     color: #D3492C;

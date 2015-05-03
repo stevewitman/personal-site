@@ -97,15 +97,11 @@ $(document).ready(function() {
         backgrounds: [
 
             {
-                src: 'img/slider/IMAG0034.jpg',
+                src: 'img/slider/IMAG0034a.jpg',
                 fade: 1000
             },
             {
                 src: 'img/slider/IMG_2810d.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_4413.jpg',
                 fade: 1000
             },
             {
@@ -132,13 +128,10 @@ $(document).ready(function() {
                 src: 'img/slider/IMG_8481.jpg',
                 fade: 1000
             },
-
-
             {
                 src: 'img/slider/IMG_1766.jpg',
                 fade: 1000
             },
-
             {
                 src: 'img/slider/IMG_4411.jpg',
                 fade: 1000
@@ -148,11 +141,7 @@ $(document).ready(function() {
                 fade: 1000
             },
             {
-                src: 'img/slider/15a.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/WitmanHorseLine - Copy.jpg',
+                src: 'img/slider/15c.jpg',
                 fade: 1000
             },
             {
