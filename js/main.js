@@ -57,7 +57,6 @@ $(document).ready(function() {
     });
 
 
-
     /* Sticky menu */
     $(".navbar").sticky({
         topSpacing: 0
@@ -92,74 +91,24 @@ $(document).ready(function() {
 
 
     /* VEGAS Home Slider */
+	
+	    $('#page-welcome').vegas({
+        slides: [
+            { src: 'img/slider/01.jpg' },
+            { src: 'img/slider/02.jpg' },
+            { src: 'img/slider/03.jpg' },
+			{ src: 'img/slider/04.jpg' }
+        ],
+    overlay: true
+});
 
-    $.vegas('slideshow', {
-        backgrounds: [
-
-            {
-                src: 'img/slider/IMAG0034a.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_2810d.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_4919.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_4967.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_5034.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_5139.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_5340.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_8481.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_1766.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_4411.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/IMG_6891.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/15c.jpg',
-                fade: 1000
-            },
-            {
-                src: 'img/slider/WPbase2.jpg',
-                fade: 1000
-            },
-
-
-        ]
-    })('overlay', {
-        src: 'img/overlays/16.png'
-    });
     $("#vegas-next").click(function() {
-        $.vegas('next');
+        $('#page-welcome').vegas('next');
     });
     $("#vegas-prev").click(function() {
-        $.vegas('previous');
+       $('#page-welcome').vegas('previous');
     });
+
 
 
 });
