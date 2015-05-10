@@ -93,19 +93,19 @@ $(document).ready(function() {
 
   $('#page-welcome').vegas({
     slides: [
-      {src: 'img/slider/IMAG0034a.jpg'},
-      {src: 'img/slider/IMG_2810d.jpg'},
+      {src: 'img/slider/parrypeak.jpg'},
+      {src: 'img/slider/tundra.jpg'},
       {src: 'img/slider/fruita.jpg'},
-      {src: 'img/slider/IMG_4919.jpg'},
-      {src: 'img/slider/IMG_4967.jpg'},
-      {src: 'img/slider/IMG_5034.jpg'},
-      {src: 'img/slider/IMG_5139.jpg'},
-      {src: 'img/slider/IMG_5340.jpg'},
-      {src: 'img/slider/IMG_8481.jpg'},
-      {src: 'img/slider/IMG_1766.jpg'},
-      {src: 'img/slider/IMG_6891.jpg'},
-      {src: 'img/slider/15c.jpg'},
-      {src: 'img/slider/WPbase2.jpg'},
+      {src: 'img/slider/alta.jpg'},
+      {src: 'img/slider/patrol.jpg'},
+      {src: 'img/slider/moab.jpg'},
+      {src: 'img/slider/storm.jpg'},
+      {src: 'img/slider/arches.jpg'},
+      {src: 'img/slider/crest.jpg'},
+      {src: 'img/slider/cornice.jpg'},
+      {src: 'img/slider/yellowstone.jpg'},
+      {src: 'img/slider/portillo.jpg'},
+      {src: 'img/slider/winterpark.jpg'},
     ],
     overlay: true
   });
